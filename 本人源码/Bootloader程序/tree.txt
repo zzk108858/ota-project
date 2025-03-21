@@ -1,0 +1,28 @@
+卷 文件 的文件夹 PATH 列表
+卷序列号为 67A4-F3C5
+E:.
+│  keilkilll.bat
+│  README.TXT
+│  tree.txt
+│  
+├─CORE
+├─HardWare
+├─OBJ
+│     ......
+│      Template.axf
+│      Template.bin
+│     ...... 
+├─STM32F10x_FWLib
+│  ├─inc     
+│  └─src      
+├─SYSTEM
+│  ├─delay  
+│  └─usart        
+└─USER
+    │  ......
+    │  Template.uvprojx
+    │  ...... 
+    ├─DebugConfig
+    ├─Listings  
+    └─Objects
+

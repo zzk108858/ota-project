@@ -1,0 +1,151 @@
+Dependencies for Project '工程文件', Target '工程': (DO NOT MODIFY !)
+F (.\main.c)(0x64631A88)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-IE:\keil5\ARM\CMSIS\Include-IDevice\Include-D__UVISION_VERSION="524" -DGD32F10X_MD-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+F (..\CMSIS\Source\system_gd32f10x.c)(0x641FCFFE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-IE:\keil5\ARM\CMSIS\Include-IDevice\Include-D__UVISION_VERSION="524" -DGD32F10X_MD-o ..\obj\system_gd32f10x.o --omf_browse ..\obj\system_gd32f10x.crf --depend ..\obj\system_gd32f10x.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+F (..\CMSIS\Source\startup_gd32f10x_md.s)(0x62CCE014)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_____-IE:\keil5\ARM\CMSIS\Include-IDevice\Include--pd "__UVISION_VERSION SETA 524"--list .\listings\startup_gd32f10x_md.lst --xref -o ..\obj\startup_gd32f10x_md.o --depend ..\obj\startup_gd32f10x_md.d)
+F (..\HW\Source\gd32f10x_it.c)(0x64463AB2)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-IE:\keil5\ARM\CMSIS\Include-IDevice\Include-D__UVISION_VERSION="524" -DGD32F10X_MD-o ..\obj\gd32f10x_it.o --omf_browse ..\obj\gd32f10x_it.crf --depend ..\obj\gd32f10x_it.d)
+I (..\HW\Include\gd32f10x_it.h)(0x62CCE00D)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+F (..\HW\Source\usart.c)(0x64463BC2)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-IE:\keil5\ARM\CMSIS\Include-IDevice\Include-D__UVISION_VERSION="524" -DGD32F10X_MD-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+F (..\HW\Source\delay.c)(0x63F2C7AD)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-IE:\keil5\ARM\CMSIS\Include-IDevice\Include-D__UVISION_VERSION="524" -DGD32F10X_MD-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+F (..\HW\Source\iic.c)(0x63F2CC5E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-IE:\keil5\ARM\CMSIS\Include-IDevice\Include-D__UVISION_VERSION="524" -DGD32F10X_MD-o ..\obj\iic.o --omf_browse ..\obj\iic.crf --depend ..\obj\iic.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+F (..\HW\Source\m24c02.c)(0x63F2CFE2)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-IE:\keil5\ARM\CMSIS\Include-IDevice\Include-D__UVISION_VERSION="524" -DGD32F10X_MD-o ..\obj\m24c02.o --omf_browse ..\obj\m24c02.crf --depend ..\obj\m24c02.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+F (..\HW\Source\spi.c)(0x63F2D1BE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-IE:\keil5\ARM\CMSIS\Include-IDevice\Include-D__UVISION_VERSION="524" -DGD32F10X_MD-o ..\obj\spi.o --omf_browse ..\obj\spi.crf --depend ..\obj\spi.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+F (..\HW\Source\w25q64.c)(0x63F2D4B5)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-IE:\keil5\ARM\CMSIS\Include-IDevice\Include-D__UVISION_VERSION="524" -DGD32F10X_MD-o ..\obj\w25q64.o --omf_browse ..\obj\w25q64.crf --depend ..\obj\w25q64.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+F (..\HW\Source\fmc.c)(0x63F2D6C3)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-IE:\keil5\ARM\CMSIS\Include-IDevice\Include-D__UVISION_VERSION="524" -DGD32F10X_MD-o ..\obj\fmc.o --omf_browse ..\obj\fmc.crf --depend ..\obj\fmc.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+F (..\HW\Source\4g.c)(0x64465259)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-IE:\keil5\ARM\CMSIS\Include-IDevice\Include-D__UVISION_VERSION="524" -DGD32F10X_MD-o ..\obj\4g.o --omf_browse ..\obj\4g.crf --depend ..\obj\4g.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+F (..\HW\Source\mqtt.c)(0x644656B9)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-IE:\keil5\ARM\CMSIS\Include-IDevice\Include-D__UVISION_VERSION="524" -DGD32F10X_MD-o ..\obj\mqtt.o --omf_browse ..\obj\mqtt.crf --depend ..\obj\mqtt.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+F (..\LIB\Source\gd32f10x_misc.c)(0x62CCE011)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-IE:\keil5\ARM\CMSIS\Include-IDevice\Include-D__UVISION_VERSION="524" -DGD32F10X_MD-o ..\obj\gd32f10x_misc.o --omf_browse ..\obj\gd32f10x_misc.crf --depend ..\obj\gd32f10x_misc.d)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+F (..\LIB\Source\gd32f10x_rcu.c)(0x62CCE011)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-IE:\keil5\ARM\CMSIS\Include-IDevice\Include-D__UVISION_VERSION="524" -DGD32F10X_MD-o ..\obj\gd32f10x_rcu.o --omf_browse ..\obj\gd32f10x_rcu.crf --depend ..\obj\gd32f10x_rcu.d)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+F (..\LIB\Source\gd32f10x_gpio.c)(0x62CCE010)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-IE:\keil5\ARM\CMSIS\Include-IDevice\Include-D__UVISION_VERSION="524" -DGD32F10X_MD-o ..\obj\gd32f10x_gpio.o --omf_browse ..\obj\gd32f10x_gpio.crf --depend ..\obj\gd32f10x_gpio.d)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+F (..\LIB\Source\gd32f10x_usart.c)(0x62CCE011)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-IE:\keil5\ARM\CMSIS\Include-IDevice\Include-D__UVISION_VERSION="524" -DGD32F10X_MD-o ..\obj\gd32f10x_usart.o --omf_browse ..\obj\gd32f10x_usart.crf --depend ..\obj\gd32f10x_usart.d)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+F (..\LIB\Source\gd32f10x_dma.c)(0x62CCE011)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-IE:\keil5\ARM\CMSIS\Include-IDevice\Include-D__UVISION_VERSION="524" -DGD32F10X_MD-o ..\obj\gd32f10x_dma.o --omf_browse ..\obj\gd32f10x_dma.crf --depend ..\obj\gd32f10x_dma.d)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+F (..\LIB\Source\gd32f10x_spi.c)(0x62CCE011)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-IE:\keil5\ARM\CMSIS\Include-IDevice\Include-D__UVISION_VERSION="524" -DGD32F10X_MD-o ..\obj\gd32f10x_spi.o --omf_browse ..\obj\gd32f10x_spi.crf --depend ..\obj\gd32f10x_spi.d)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+F (..\LIB\Source\gd32f10x_fmc.c)(0x62CCE011)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-IE:\keil5\ARM\CMSIS\Include-IDevice\Include-D__UVISION_VERSION="524" -DGD32F10X_MD-o ..\obj\gd32f10x_fmc.o --omf_browse ..\obj\gd32f10x_fmc.crf --depend ..\obj\gd32f10x_fmc.d)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+F (..\LIB\Source\gd32f10x_exti.c)(0x62CCE011)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-IE:\keil5\ARM\CMSIS\Include-IDevice\Include-D__UVISION_VERSION="524" -DGD32F10X_MD-o ..\obj\gd32f10x_exti.o --omf_browse ..\obj\gd32f10x_exti.crf --depend ..\obj\gd32f10x_exti.d)
+I (..\LIB\Include\gd32f10x_exti.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)

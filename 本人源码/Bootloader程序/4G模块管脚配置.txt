@@ -1,0 +1,41 @@
+PB0	RDY脚	联网成功后由低电平转为高电平
+
+PB2	RST脚	复位引脚， 拉高 150ms 以上模块复位
+
+4G模块通信串口连接单片机UART3 PB10 11
+
+
+AT+CIPMODE=0				设置TCPIP应用为透明传输模式	0非透 1透
+
+AT+CIPSTART="TCP",test.usr.cn,2317	建立 TCP 连接或注册 UDP 端口号
+
+AT^HEARTCONFIG=1,0,60			配置心跳的相关参数
+
+AT^HEARTBEATHEX=4,C000			设置 HEX 编码格式心跳包内容
+
+AT&W					保存用户当前的配置
+
+AT+RESET				重启模块
+
+
+
+输出信息
+[14:51:04.555]收←◆
+RDY
+
+[14:51:05.954]收←◆
++CPIN: READY
+
+^CARDMODE: 2
+
+[14:51:07.585]收←◆
+SMS READY
+
+[14:51:08.009]收←◆
++E_UTRAN Service
+
+*CGEV: ACT,5,"cmiot.MNC008.MCC460.GPRS","10.171.78.252"
+
++NITZ: 24/06/13,06:51:08+32,0
+
++NITZ: 24/06/13,07:07:45+32,0
